@@ -7,11 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Cycle.h"
+#import "Bike.h"
+#import "Car.h"
 int main(int argc, const char * argv[]) {
-    @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
-    }
-    return 0;
+   /*  Cycle *cycleObj=[[Cycle alloc]init];
+    [cycleObj vehicleFeatures];
+    [cycleObj speedOfVehicle];
+    
+    
+    Bike *pulsar=[[Bike alloc]init];
+    [pulsar vehicleFeatures];
+    [pulsar speedOfVehicle]; */
+    
+    
+    
+   Car *CarObj=[[Car alloc]init];
+    [CarObj vehicleFeatures];
+    [CarObj speedOfVehicle];
+    
+    
+        return 0;
 }
